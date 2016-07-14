@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="ch-1-limit">
+
+	<title>Using Knowls</title>
+
+	<introduction>
+		<p> In this section of the text, we will explore the use of <term>knowls</term>. </p>	
+	</introduction>
+
+	<subsection>
+		<title>Things that are automatically knowl-ized</title>
+		
+		<p>Footnotes are even better as knowls.<fn>Because they appear adjacent to the footnote in the text when you click on them.</fn></p>
+
+		<p>If we do a theorem that has a proof, the proof is automatically in a knowl.  The theorem structure in MBX also has several key levels/components:  theorem, title, index, statement, proof.</p>
+
+		<theorem xml:id="theorem-MyTheorem">
+			<title>My Theorem</title>
+			<index>My Theorem</index>
+			<statement><p>If a triangle has sides of length <m>a</m>, <m>b</m>, and <m>c</m>, and <m>a^2 + b^2 = c^2</m>, then the triangle is a right triangle.</p></statement>
+			<proof><p>Here is my insightful argument.</p></proof>				
+		</theorem>
+		
+		<p>Examples are also automatically put into knowls.</p>
+
+		<example xml:id="example-ch-1-MyExample">
+				<p> Here is an example application of Theorem <xref ref="theorem-MyTheorem" />.  Suppose that we have a triangle whose sides are of length 5, 12, 13.  Then, since <m>5^2 + 12^2 = 25 + 144 = 169 = 13^2</m>, it follows that the triangle must be a right triangle.</p>
+		</example>	
+
+	</subsection>	
+
+	<subsection>
+		<title>How do exercises work?</title>
+
+		<p>Exercises seem to be set up so that they appear as their own section.  Can we put them within a subsection?  Is this one of the things Rob is working on?</p>
+
+	</subsection>	
+
+	
+</section>
+

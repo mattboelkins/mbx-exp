@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="ch-1-activities">
+
+	<title>Using Activities</title>
+
+	<introduction>
+		<p> In this section of the text, we will explore the use of <term>activities</term> and think about issues like how we deal with there not yet being an "activities" environment in MBX and where to put solutions.  Really, how are activities different from exercises? </p>	
+	</introduction>	
+
+	<subsection>
+		<title>How does the exercise environment work?</title>
+
+		<p>Exercises seem to be set up so that they appear as their own section.  Can we put them within a subsection?  Is this one of the things Rob is working on?</p>
+
+		<p>Exercises also, when included in the "exercises" environment, appear with their full statement included.  When included as a single "exercise", such as the one following, appear as knowls.</p>
+
+		<exercise xml:id="exercise-essay">
+            <title>Essay Question: Compare and Contrast</title>
+                <statement>
+                    <p>Write a short paragraph that compares and contrasts the definite and indefinite integral. This is an exercise that sits in the midst of the narrative, so is formatted more like an example or a remark.  It can have a hint and a solution, but this one does not.  It can have a title, which this one does.</p>
+                </statement>
+                <hint>
+                    <p>Start writing!</p>
+                </hint>
+        </exercise>
+
+        <p>I wonder if all activities could just be called exercises.  Or if Rob is open to having an environment identical to "exercise" that's called "activity".</p>
+
+        <p>Here is an activity directly from <em>Active Calculus</em>.</p>
+
+		<exercise xml:id="act-car-concavity">
+			<title>Car on a straight road</title>
+			<statement>
+				<p>
+				The position of a car driving along a straight road at time <m>t</m> in minutes is given by the function <m>y = s(t)</m> that is pictured in <xref ref="act-car-graph">Figure</xref>. The car's position function has units measured in thousands of feet. Remember that you worked with this function and sketched graphs of <m>y = v(t) = s'(t)</m> and <m>y = v'(t)</m> in a previous activity <!-- Preview <xref ref="PA_1.6">Activity</xref> -->. </p>
+			
+  				<figure xml:id="act-car-graph" >
+					<caption>The graph of <m>y = s(t)</m>, the position of the car (measured in thousands of feet from its starting location) at time <m>t</m> in minutes.</caption>
+					<image width="50%" source="images/act-car-graph" /> 
+				</figure>
+		  		<ol>
+		  		  <li>On what intervals is the position function <m>y = s(t)</m> increasing? decreasing?  Why?</li>
+				  <li>On which intervals is the velocity function <m>y = v(t) = s'(t)</m> increasing? decreasing? neither?  Why?</li>
+		  		  <li><em>Acceleration</em> is defined to be the instantaneous rate of change of velocity, as the acceleration of an object measures the rate at which the velocity of the object is changing.  Say that the car's acceleration function is named <m>a(t)</m>.  How is <m>a(t)</m> computed from <m>v(t)</m>?  How is <m>a(t)</m> computed from <m>s(t)</m>?  Explain.</li>
+				  <li>What can you say about <m>s''</m> whenever <m>s'</m> is increasing?  Why?</li>
+				  <li>Using only the words <em>increasing</em>, <em>decreasing</em>, <em>constant</em>, <em>concave up</em>, <em>concave down</em>, and <em>linear</em>, complete the following sentences.  For the position function <m>s</m> with velocity <m>v</m> and acceleration <m>a</m>,
+					<ul>
+						<li>on an interval where <m>v</m> is positive, <m>s</m> is <u></u>.</li>
+						<li>on an interval where <m>v</m> is negative, <m>s</m> is <u></u>.</li>
+						<li>on an interval where <m>v</m> is zero, <m>s</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is positive, <m>v</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is negative, <m>v</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is zero, <m>v</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is positive, <m>s</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is negative, <m>s</m> is <u></u>.</li>
+						<li>on an interval where <m>a</m> is zero, <m>s</m> is <u></u>.</li>
+ 					</ul> 
+ 				  </li>
+		  		</ol>
+		  </statement>
+		  <hint>Exercises (and presumably activities) can have hints.</hint>
+		  <answer>Exercises of course have answers.</answer>
+		  <solution>And some exercises/activities will have solutions</solution>
+		</exercise>		  
+		<p>I need to understand how to make the "solution" and "answer" options not appear with the exercise/activity, and yet to have these available at the end.</p> 
+	</subsection>	
+
+	<subsection>
+		<title>How does the new "Activity" environment work?</title>
+
+		<p>Rob instantiated this feature at my request in mid-June 2016.</p>
+
+		            <activity xml:id="sample-activity">
+                        <title>An Example of an Activity</title>
+                        <statement>
+                            <p>An <c>activity</c> behaves identically to <c>example</c>s; they may have an independent numbering scheme.  There does not appear to be a "solution" feature; need to learn how to keep these separate.</p>
+                        </statement>
+                        <hint>
+                        	Here is a hint to the activity
+                        </hint>
+                        <answer>
+                        	If I want to provide an answer to an activity, I can.
+                        </answer>
+                        <solution>
+                        	<p> Is there a solution?  If yes, how do I make it appear elsewhere? </p>
+                        </solution>
+                    </activity>
+	</subsection>
+</section>
+

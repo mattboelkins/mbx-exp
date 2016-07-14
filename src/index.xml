@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+This is a test file for work with Active Calculus Single Variable
+*********************************************************************-->
+
+<!-- Changing xml:lang causes many strings to change language -->
+<!-- See the  xsl/localizations  directory for details        -->
+<!-- Note the use of the "xinclude" namespace in order to use multiple files -->
+<!-- Each included file must contain exactly one top-level element, -->
+<!-- such as a chapter or section -->
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<!-- <mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fr-FR"> -->
+
+    <book xml:id="index">
+        <title>Active Calculus - Single Variable</title>
+        <subtitle>This is Only a Test</subtitle>
+
+        <xi:include href="./ch-1.xml" />  
+        <xi:include href="./backmatter.xml" />
+    </book>
+
+</mathbook>

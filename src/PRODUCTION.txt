@@ -1,0 +1,17 @@
+Write up how to get WeBWorK set up for novice users
+
+to process the file in such a way that I can reference webwork stuff — must include --stringparam webwork.server https://webwork.pcc.edu
+
+
+ xsltproc --xinclude --stringparam webwork.server https://webwork.pcc.edu ~/mathbook/xsl/mathbook-html.xsl index.xml
+
+
+to convert eps to pdf 
+
+  epstopdf act-sec-soln.eps  [for a single file]
+  find . -name "*.eps" -exec epstopdf {} \;  [for all files in the directory]
+
+
+
+
+

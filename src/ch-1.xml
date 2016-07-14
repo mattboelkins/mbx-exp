@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter xml:id="ch-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<title>My first chapter</title>
+
+	<introduction>
+		<p>In this chapter of the text, we investigate several different standard things that we need to do in writing an MBX text, including how to include graphics, use knowls, and include exercises.</p>
+	</introduction>
+
+	<xi:include href="./ch-1-velocity.xml" />   <!-- this is a section on velocity -->
+	<xi:include href="./ch-1-limit.xml" />      <!-- this is a section on the notion of limit -->
+	<xi:include href="./ch-1-activities.xml" />    <!-- this is a section to explore how to present activities -->
+	<xi:include href="./exercises/first-exercise.xml" />  <!-- here are exercises, which for now appear at the end of the chapter -->
+</chapter>	

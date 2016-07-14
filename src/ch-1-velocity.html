@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--* Generated from MathBook XML source *-->
+<!--*    on 2016-07-14T06:10:07-04:00    *-->
+<!--*                                    *-->
+<!--*   http://mathbook.pugetsound.edu   *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Graphics and other Basics</title>
+<meta name="Keywords" content="Authored in MathBook XML">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="https://sagecell.sagemath.org/static/jquery.min.js"></script><script type="text/x-mathjax-config">
+// contrib directory for accessibility menu, moot after v2.6+?
+MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']],
+    },
+    TeX: {
+        // [Contrib]accessibility menu moot after v2.6+?
+        extensions: ["AMSmath.js", "AMSsymbols.js", "extpfeil.js", "autobold.js", "https://aimath.org/mathbook/mathjaxknowl.js", "[Contrib]/a11y/accessibility-menu.js", ],
+        equationNumbers: { autoNumber: "none",
+                           useLabelIds: true,
+                           // JS comment, XML CDATA protect XHTML quality of file
+                           // if removed in XSL, use entities
+                           //<![CDATA[
+                           formatID: function (n) {return String(n).replace(/[:'"<>&]/g,"")},
+                           //]]>
+                         },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    "HTML-CSS": {
+        scale: 88,
+    },
+});
+    </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full"></script><link href="https://webwork.pcc.edu/webwork2_files/js/apps/MathView/mathview.css" rel="stylesheet">
+<script type="text/javascript" src="https://webwork.pcc.edu/webwork2_files/js/vendor/iframe-resizer/js/iframeResizer.min.js"></script><link href="https://aimath.org/knowlstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://aimath.org/knowl.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.sticky.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.espy.min.js"></script><script src="https://aimath.org/mathbook/js/Mathbook.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/stylesheets/mathbook-3.css" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/mathbook-add-on.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<div style="display:none;">\(
+\newcommand{\lt}{ &lt; }
+\newcommand{\gt}{ &gt; }
+\newcommand{\amp}{ &amp; }
+\)</div>
+<header id="masthead"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading">
+<span class="title">Active Calculus - Single Variable</span><span class="subtitle">This is Only a Test</span>
+</h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav id="primary-navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="previous-button toolbar-item button" href="ch-1.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="ch-1-limit.html">Next</a>
+</div>
+<button class="sidebar-right-toggle-button button active">Annotations</button>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch-1.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="ch-1-limit.html">Next</a>
+</div>
+</div></nav></header><div class="page">
+<aside id="sidebar-left" class="sidebar"><div class="sidebar-content">
+<nav id="toc"><h2 class="link active"><a href="ch-1.html"><span class="codenumber">1</span><span class="title">My first chapter</span></a></h2>
+<ul>
+<li><a href="ch-1-velocity.html" class="active">Graphics and other Basics</a></li>
+<li><a href="ch-1-limit.html">Using Knowls</a></li>
+<li><a href="ch-1-activities.html">Using Activities</a></li>
+<li><a href="exercises-sets.html">Exercises</a></li>
+</ul>
+<h2 class="link"><a href="backmatter.html"><span class="title">Back Matter</span></a></h2>
+<ul><li><a href="appendix-1.html">Hints and Solutions to Selected Exercises</a></li></ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://mathbook.pugetsound.edu">Authored in MathBook XML</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://cdn.mathjax.org/mathjax/badge/badge.gif" border="0" alt="Powered by MathJax"></a></nav></div>
+</div></aside><main class="main"><div id="content" class="mathbook-content"><section class="section" id="ch-1-velocity"><header title="Section 1.1 Graphics and other Basics"><h1 class="heading hide-type" alt="Section 1.1 Graphics and other Basics">
+<span class="type">Section</span><span class="codenumber">1.1</span><span class="title">Graphics and other Basics</span><a href="ch-1-velocity.html" class="permalink">¶ permalink</a>
+</h1></header><article class="introduction" id="introduction-2"><h5 class="heading"><span></span></h5>
+<p id="p-2"> In this section of the text, we are trying to understand some basic MBX features, including </p>
+<ul style="list-style-type: disc;">
+<li id="li-1"><p id="p-3">how to make an unordered list</p></li>
+<li id="li-2"><p id="p-4">how to effectively use Sublime</p></li>
+<li id="li-3"><p id="p-5">how to use math mode to write things like \(f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}\)</p></li>
+<li id="li-4"><p id="p-6">how to include graphics and resize them</p></li>
+</ul></article><section class="subsection" id="subsection-1"><header title="Subsection 1.1.1 Including Graphics"><h1 class="heading hide-type" alt="Subsection 1.1.1 Including Graphics">
+<span class="type">Subsection</span><span class="codenumber">1.1.1</span><span class="title">Including Graphics</span>
+</h1></header><p id="p-7">To include a plot, we need to use the PDF to SVG utility (pdf2svg), and even before that need to use epstopdf.  I need to learn more about how all this works with HomeBrew from the Terminal line.  Should we use the filename (which is sort of a title) as the label, too? </p>
+<figure class="figure-like" id="test_figure_1"><object type="image/svg+xml" style="width:50%; margin:auto; display:block;" data="images/act-sec-soln.svg" alt=""><p style="margin:auto">&lt;&lt;SVG image is unavailable, or your browser cannot render it&gt;&gt;</p></object><figcaption><span class="heading">Figure</span><span class="codenumber">1.1.1</span>This is the caption for the figure. </figcaption></figure><p id="p-8">I need to think carefully about how subsections will be structured.</p>
+<p id="p-9">How will we address the size of graphics?</p>
+<figure class="figure-like" id="test_figure_2"><object type="image/svg+xml" style="width:50%; margin:auto; display:block;" data="images/der-vel-summary.svg" alt=""><p style="margin:auto">&lt;&lt;SVG image is unavailable, or your browser cannot render it&gt;&gt;</p></object><figcaption><span class="heading">Figure</span><span class="codenumber">1.1.2</span>Is this figure smaller? </figcaption></figure></section><section class="subsection" id="subsection-2"><header title="Subsection 1.1.2 This is the title of my second subsection"><h1 class="heading hide-type" alt="Subsection 1.1.2 This is the title of my second subsection">
+<span class="type">Subsection</span><span class="codenumber">1.1.2</span><span class="title">This is the title of my second subsection</span>
+</h1></header><p id="p-10">This is text in the second subsection, and below is an example of a side-by-side figure.</p>
+<div class="sidebyside" id="fig-sidebyside-global">
+<figure class="left" id="fig-sidebyside-subfigure" style="width:48%;vertical-align:bottom;text-align:center;"><object type="image/svg+xml" style="width:90%; margin:auto; display:block;" data="images/der-vel-summary.svg" alt="Trefoil image"><p style="margin:auto">&lt;&lt;SVG image is unavailable, or your browser cannot render it&gt;&gt;</p></object><figcaption><span class="codenumber">(a)</span></figcaption></figure><figure class="right" id="figure-4" style="width:48%;vertical-align:bottom;text-align:center;"><object type="image/svg+xml" style="width:90%; margin:auto; display:block;" data="images/der-vel-summary.svg" alt=""><p style="margin:auto">&lt;&lt;SVG image is unavailable, or your browser cannot render it&gt;&gt;</p></object><figcaption><span class="codenumber">(b)</span></figcaption></figure><figcaption><span class="heading">Figure</span><span class="codenumber">1.1.3</span>Side-by-side Figure, with subfigure children.</figcaption>
+</div></section></section></div></main>
+</div>
+</body>
+</html>

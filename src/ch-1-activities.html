@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--* Generated from MathBook XML source *-->
+<!--*    on 2016-07-14T06:10:07-04:00    *-->
+<!--*                                    *-->
+<!--*   http://mathbook.pugetsound.edu   *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Using Activities</title>
+<meta name="Keywords" content="Authored in MathBook XML">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="https://sagecell.sagemath.org/static/jquery.min.js"></script><script type="text/x-mathjax-config">
+// contrib directory for accessibility menu, moot after v2.6+?
+MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']],
+    },
+    TeX: {
+        // [Contrib]accessibility menu moot after v2.6+?
+        extensions: ["AMSmath.js", "AMSsymbols.js", "extpfeil.js", "autobold.js", "https://aimath.org/mathbook/mathjaxknowl.js", "[Contrib]/a11y/accessibility-menu.js", ],
+        equationNumbers: { autoNumber: "none",
+                           useLabelIds: true,
+                           // JS comment, XML CDATA protect XHTML quality of file
+                           // if removed in XSL, use entities
+                           //<![CDATA[
+                           formatID: function (n) {return String(n).replace(/[:'"<>&]/g,"")},
+                           //]]>
+                         },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    "HTML-CSS": {
+        scale: 88,
+    },
+});
+    </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full"></script><link href="https://webwork.pcc.edu/webwork2_files/js/apps/MathView/mathview.css" rel="stylesheet">
+<script type="text/javascript" src="https://webwork.pcc.edu/webwork2_files/js/vendor/iframe-resizer/js/iframeResizer.min.js"></script><link href="https://aimath.org/knowlstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://aimath.org/knowl.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.sticky.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.espy.min.js"></script><script src="https://aimath.org/mathbook/js/Mathbook.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/stylesheets/mathbook-3.css" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/mathbook-add-on.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<div style="display:none;">\(
+\newcommand{\lt}{ &lt; }
+\newcommand{\gt}{ &gt; }
+\newcommand{\amp}{ &amp; }
+\)</div>
+<header id="masthead"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading">
+<span class="title">Active Calculus - Single Variable</span><span class="subtitle">This is Only a Test</span>
+</h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav id="primary-navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="previous-button toolbar-item button" href="ch-1-limit.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="exercises-sets.html">Next</a>
+</div>
+<button class="sidebar-right-toggle-button button active">Annotations</button>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch-1-limit.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="exercises-sets.html">Next</a>
+</div>
+</div></nav></header><div class="page">
+<aside id="sidebar-left" class="sidebar"><div class="sidebar-content">
+<nav id="toc"><h2 class="link active"><a href="ch-1.html"><span class="codenumber">1</span><span class="title">My first chapter</span></a></h2>
+<ul>
+<li><a href="ch-1-velocity.html">Graphics and other Basics</a></li>
+<li><a href="ch-1-limit.html">Using Knowls</a></li>
+<li><a href="ch-1-activities.html" class="active">Using Activities</a></li>
+<li><a href="exercises-sets.html">Exercises</a></li>
+</ul>
+<h2 class="link"><a href="backmatter.html"><span class="title">Back Matter</span></a></h2>
+<ul><li><a href="appendix-1.html">Hints and Solutions to Selected Exercises</a></li></ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://mathbook.pugetsound.edu">Authored in MathBook XML</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://cdn.mathjax.org/mathjax/badge/badge.gif" border="0" alt="Powered by MathJax"></a></nav></div>
+</div></aside><main class="main"><div id="content" class="mathbook-content"><section class="section" id="ch-1-activities"><header title="Section 1.3 Using Activities"><h1 class="heading hide-type" alt="Section 1.3 Using Activities">
+<span class="type">Section</span><span class="codenumber">1.3</span><span class="title">Using Activities</span><a href="ch-1-activities.html" class="permalink">¶ permalink</a>
+</h1></header><article class="introduction" id="introduction-4"><h5 class="heading"><span></span></h5>
+<p id="p-19"> In this section of the text, we will explore the use of <em class="terminology">activities</em> and think about issues like how we deal with there not yet being an "activities" environment in MBX and where to put solutions.  Really, how are activities different from exercises? </p></article><section class="subsection" id="subsection-5"><header title="Subsection 1.3.1 How does the exercise environment work?"><h1 class="heading hide-type" alt="Subsection 1.3.1 How does the exercise environment work?">
+<span class="type">Subsection</span><span class="codenumber">1.3.1</span><span class="title">How does the exercise environment work?</span>
+</h1></header><p id="p-20">Exercises seem to be set up so that they appear as their own section.  Can we put them within a subsection?  Is this one of the things Rob is working on?</p>
+<p id="p-21">Exercises also, when included in the "exercises" environment, appear with their full statement included.  When included as a single "exercise", such as the one following, appear as knowls.</p>
+<div class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-exercise-essay" id="exercise-essay"><h5 class="heading">
+<span class="type">Exercise</span> <span class="codenumber">1.3.1</span> <span class="title">Essay Question: Compare and Contrast</span>
+</h5></a></div>
+<div id="hk-exercise-essay" style="display: none;" class="tex2jax_ignore">
+<article class="exercise-like"><p id="p-22">Write a short paragraph that compares and contrasts the definite and indefinite integral. This is an exercise that sits in the midst of the narrative, so is formatted more like an example or a remark.  It can have a hint and a solution, but this one does not.  It can have a title, which this one does.</p></article><div class="hidden-knowl-wrapper">
+<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-hint-1" id="hint-1"><span class="heading"><span class="type">Hint</span></span></a></span><span id="hk-hint-1" style="display: none;" class="tex2jax_ignore"><span class="solution"><p id="p-23">Start writing!</p></span></span>
+</div>
+</div>
+<p id="p-24">I wonder if all activities could just be called exercises.  Or if Rob is open to having an environment identical to "exercise" that's called "activity".</p>
+<p id="p-25">Here is an activity directly from <!--Style me with CSS--><em>Active Calculus</em>.</p>
+<div class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-act-car-concavity" id="act-car-concavity"><h5 class="heading">
+<span class="type">Exercise</span> <span class="codenumber">1.3.2</span> <span class="title">Car on a straight road</span>
+</h5></a></div>
+<div id="hk-act-car-concavity" style="display: none;" class="tex2jax_ignore">
+<article class="exercise-like"><p id="p-26">
+				The position of a car driving along a straight road at time \(t\) in minutes is given by the function \(y = s(t)\) that is pictured in <a knowl="./knowl/act-car-graph.html" knowl-id="xref-act-car-graph" alt="Figure 1.3.3 " title="Figure 1.3.3 ">Figure 1.3.3</a>. The car's position function has units measured in thousands of feet. Remember that you worked with this function and sketched graphs of \(y = v(t) = s'(t)\) and \(y = v'(t)\) in a previous activity . </p>
+<figure class="figure-like" id="act-car-graph"><object type="image/svg+xml" style="width:50%; margin:auto; display:block;" data="images/act-car-graph.svg" alt=""><p style="margin:auto">&lt;&lt;SVG image is unavailable, or your browser cannot render it&gt;&gt;</p></object><figcaption><span class="heading">Figure</span><span class="codenumber">1.3.3</span>The graph of \(y = s(t)\), the position of the car (measured in thousands of feet from its starting location) at time \(t\) in minutes.</figcaption></figure><ol style="list-style-type: decimal;">
+<li id="li-5">On what intervals is the position function \(y = s(t)\) increasing? decreasing?  Why?</li>
+<li id="li-6">On which intervals is the velocity function \(y = v(t) = s'(t)\) increasing? decreasing? neither?  Why?</li>
+<li id="li-7">
+<!--Style me with CSS--><em>Acceleration</em> is defined to be the instantaneous rate of change of velocity, as the acceleration of an object measures the rate at which the velocity of the object is changing.  Say that the car's acceleration function is named \(a(t)\).  How is \(a(t)\) computed from \(v(t)\)?  How is \(a(t)\) computed from \(s(t)\)?  Explain.</li>
+<li id="li-8">What can you say about \(s''\) whenever \(s'\) is increasing?  Why?</li>
+<li id="li-9">Using only the words <!--Style me with CSS--><em>increasing</em>, <!--Style me with CSS--><em>decreasing</em>, <!--Style me with CSS--><em>constant</em>, <!--Style me with CSS--><em>concave up</em>, <!--Style me with CSS--><em>concave down</em>, and <!--Style me with CSS--><em>linear</em>, complete the following sentences.  For the position function \(s\) with velocity \(v\) and acceleration \(a\),
+					<ul style="list-style-type: disc;">
+<li id="li-10">on an interval where \(v\) is positive, \(s\) is .</li>
+<li id="li-11">on an interval where \(v\) is negative, \(s\) is .</li>
+<li id="li-12">on an interval where \(v\) is zero, \(s\) is .</li>
+<li id="li-13">on an interval where \(a\) is positive, \(v\) is .</li>
+<li id="li-14">on an interval where \(a\) is negative, \(v\) is .</li>
+<li id="li-15">on an interval where \(a\) is zero, \(v\) is .</li>
+<li id="li-16">on an interval where \(a\) is positive, \(s\) is .</li>
+<li id="li-17">on an interval where \(a\) is negative, \(s\) is .</li>
+<li id="li-18">on an interval where \(a\) is zero, \(s\) is .</li>
+</ul>
+</li>
+</ol></article><div class="hidden-knowl-wrapper">
+<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-hint-2" id="hint-2"><span class="heading"><span class="type">Hint</span></span></a></span><span id="hk-hint-2" style="display: none;" class="tex2jax_ignore"><span class="solution">Exercises (and presumably activities) can have hints.</span></span><span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-answer-1" id="answer-1"><span class="heading"><span class="type">Answer</span></span></a></span><span id="hk-answer-1" style="display: none;" class="tex2jax_ignore"><span class="solution">Exercises of course have answers.</span></span><span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-solution-1" id="solution-1"><span class="">Solution</span></a></span><span id="hk-solution-1" style="display: none;" class="tex2jax_ignore"><div class="remark-like">And some exercises/activities will have solutions</div></span>
+</div>
+</div>
+<p id="p-27">I need to understand how to make the "solution" and "answer" options not appear with the exercise/activity, and yet to have these available at the end.</p></section><section class="subsection" id="subsection-6"><header title='Subsection 1.3.2 How does the new "Activity" environment work?'><h1 class="heading hide-type" alt='Subsection 1.3.2 How does the new "Activity" environment work?'>
+<span class="type">Subsection</span><span class="codenumber">1.3.2</span><span class="title">How does the new "Activity" environment work?</span>
+</h1></header><p id="p-28">Rob instantiated this feature at my request in mid-June 2016.</p>
+<article class="example-like" id="sample-activity"><h5 class="heading">
+<span class="type">Activity</span><span class="codenumber">1.3.1</span><span class="title">An Example of an Activity</span>
+</h5>
+<p id="p-29">An <tt class="code-inline tex2jax_ignore">activity</tt> behaves identically to <tt class="code-inline tex2jax_ignore">example</tt>s; they may have an independent numbering scheme.  There does not appear to be a "solution" feature; need to learn how to keep these separate.</p>
+<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-hint-3" id="hint-3"><span class="heading"><span class="type">Hint</span></span></a></span><span id="hk-hint-3" style="display: none;" class="tex2jax_ignore"><span class="solution">
+                        	Here is a hint to the activity
+                        </span></span><span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-answer-2" id="answer-2"><span class="heading"><span class="type">Answer</span></span></a></span><span id="hk-answer-2" style="display: none;" class="tex2jax_ignore"><span class="solution">
+                        	If I want to provide an answer to an activity, I can.
+                        </span></span></article><div class="posterior"><div>
+<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-solution-2" id="solution-2"><span class="">Solution</span></a></span><span id="hk-solution-2" style="display: none;" class="tex2jax_ignore"><div class="remark-like"><p id="p-30"> Is there a solution?  If yes, how do I make it appear elsewhere? </p></div></span>
+</div></div></section></section></div></main>
+</div>
+</body>
+</html>

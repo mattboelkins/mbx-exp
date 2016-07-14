@@ -1,0 +1,10 @@
+openDate          = 01/01/2016 at 12:00am PST
+dueDate           = 07/01/2016 at 10:00pm PDT
+answerDate        = 07/01/2016 at 10:00pm PDT
+paperHeaderFile   = local/Active_Calculus__Single_Variable/header/Active_Calculus__Single_Variable.pg
+screenHeaderFile  = local/Active_Calculus__Single_Variable/header/Active_Calculus__Single_Variable.pg
+description       = Active Calculus - Single Variable
+problemListV2
+problem_start
+source_file = Library/Rochester/setIntegrals4FTC/S05.03.FundThmCalc.PTP01.pg
+problem_end

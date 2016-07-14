@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exercises xml:id="exercises-sets">
+    <title>Exercises</title>
+	<exercise xml:id="exercises-sets-trial">
+		<statement>
+			This is the statement of my first exercise.
+		</statement>
+		<hint>
+			And this is a hint.
+		</hint>
+	</exercise>
+
+	<exercise xml:id="exercises-sets-with-solution">
+		<statement>
+			Suppose that an object moving along an axis has instantaneous velocity <m>v(t) = 2t-3</m> and its position at time <m>t=1</m> is <m>s(1) = -1</m>.  What is the position of the object at <m>t = 5</m>?
+		</statement>
+		<hint> Don't forget that the velocity function is the derivative of position. </hint>
+		<answer><m>s(5) = 11</m></answer>
+		<solution>Since <m>v(t) = 2t-3</m>, it follows that <m>s(t) = t^2 - 3t + C</m>.  Moreover, because <m>s(1)=-1</m>, we see that <m>-1 = 1^2 - 3 \cdot 1 + C</m>, co <m>C = 1</m>.  Thus, <m>s(t) = t^2 - 3t + 1</m>, and <m>s(5) = 11</m>. </solution>
+	</exercise>
+	
+	<exercise xml:id="exercises-sets-with-answer">
+		<statement>
+			Here's one more new exercise.
+		</statement>
+		<answer>7</answer>
+	</exercise>
+
+		<exercise xml:id="exercises-sets-test">
+		<statement>
+			Here's a second exercise, but without a hint.
+		</statement>
+	</exercise>
+
+	<exercise xml:id="exercises-sets-with-webwork">
+		<introduction>
+			<p> Next I'm going to try to add a WeBWorK exercise via PCC's server: </p>
+		</introduction>
+		<webwork source="Library/Rochester/setIntegrals4FTC/S05.03.FundThmCalc.PTP01.pg" />
+	</exercise> 
+
+	<exercise xml:id="exercises-sets-with-webwork-2">
+		<introduction>
+			<p>Here's a second WeBWorK exercise, borrowing from a Math 201 def file.</p>
+		</introduction>
+		<webwork source="Library/Michigan/Chap3Sec4/Q47.pg" />
+	</exercise>
+
+</exercises>    

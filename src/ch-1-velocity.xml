@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<section xml:id="ch-1-velocity">
+	<title>Graphics and other Basics</title>
+
+	<introduction>
+		<p> In this section of the text, we are trying to understand some basic MBX features, including </p>
+		<ul>
+			<li><p>how to make an unordered list</p></li>
+			<li><p>how to effectively use Sublime</p></li>
+			<li><p>how to use math mode to write things like <m>f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}</m></p></li>
+			<li><p>how to include graphics and resize them</p></li>
+		</ul>
+	</introduction>
+
+	<subsection>
+		<title>Including Graphics</title>
+
+		<p>To include a plot, we need to use the PDF to SVG utility (pdf2svg), and even before that need to use epstopdf.  I need to learn more about how all this works with HomeBrew from the Terminal line.  Should we use the filename (which is sort of a title) as the label, too? </p>
+
+		<figure xml:id="test_figure_1">
+			<caption>This is the caption for the figure. </caption>
+			<image width="50%" source="images/act-sec-soln"/>   <!-- if you leave off the .svg or .pdf, the HTML and LATEX handle them separately; the "width" command helps to resize the figure in the HTML version -->
+		</figure>
+		
+		<p>I need to think carefully about how subsections will be structured.</p>
+
+		<p>How will we address the size of graphics?</p>
+
+		<figure xml:id="test_figure_2">
+			<caption>Is this figure smaller? </caption>
+			<image width="50%" source="images/der-vel-summary"/>
+		</figure>
+
+	</subsection>
+
+	<subsection>
+		<title>This is the title of my second subsection</title>
+		
+		<p>This is text in the second subsection, and below is an example of a side-by-side figure.</p>
+
+		         <sidebyside xml:id="fig-sidebyside-global">
+                    <caption>Side-by-side Figure, with subfigure children.</caption>
+                    <figure width="50%" xml:id="fig-sidebyside-subfigure">
+                        <caption></caption>
+                        <image source="images/der-vel-summary">
+                            <description>Trefoil image</description>
+                        </image>
+                    </figure>
+                    <figure width="50%">
+                        <caption></caption>
+                        <image source="images/der-vel-summary"/>
+                    </figure>
+                </sidebyside>
+
+	</subsection>
+
+</section>

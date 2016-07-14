@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--* Generated from MathBook XML source *-->
+<!--*    on 2016-07-14T06:10:07-04:00    *-->
+<!--*                                    *-->
+<!--*   http://mathbook.pugetsound.edu   *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Using Knowls</title>
+<meta name="Keywords" content="Authored in MathBook XML">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="https://sagecell.sagemath.org/static/jquery.min.js"></script><script type="text/x-mathjax-config">
+// contrib directory for accessibility menu, moot after v2.6+?
+MathJax.Ajax.config.path["Contrib"] = "https://cdn.mathjax.org/mathjax/contrib";
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']],
+    },
+    TeX: {
+        // [Contrib]accessibility menu moot after v2.6+?
+        extensions: ["AMSmath.js", "AMSsymbols.js", "extpfeil.js", "autobold.js", "https://aimath.org/mathbook/mathjaxknowl.js", "[Contrib]/a11y/accessibility-menu.js", ],
+        equationNumbers: { autoNumber: "none",
+                           useLabelIds: true,
+                           // JS comment, XML CDATA protect XHTML quality of file
+                           // if removed in XSL, use entities
+                           //<![CDATA[
+                           formatID: function (n) {return String(n).replace(/[:'"<>&]/g,"")},
+                           //]]>
+                         },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    "HTML-CSS": {
+        scale: 88,
+    },
+});
+    </script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full"></script><link href="https://webwork.pcc.edu/webwork2_files/js/apps/MathView/mathview.css" rel="stylesheet">
+<script type="text/javascript" src="https://webwork.pcc.edu/webwork2_files/js/vendor/iframe-resizer/js/iframeResizer.min.js"></script><link href="https://aimath.org/knowlstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://aimath.org/knowl.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.sticky.js"></script><script src="https://aimath.org/mathbook/js/lib/jquery.espy.min.js"></script><script src="https://aimath.org/mathbook/js/Mathbook.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/stylesheets/mathbook-3.css" rel="stylesheet" type="text/css">
+<link href="https://aimath.org/mathbook/mathbook-add-on.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<div style="display:none;">\(
+\newcommand{\lt}{ &lt; }
+\newcommand{\gt}{ &gt; }
+\newcommand{\amp}{ &amp; }
+\)</div>
+<header id="masthead"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading">
+<span class="title">Active Calculus - Single Variable</span><span class="subtitle">This is Only a Test</span>
+</h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav id="primary-navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="previous-button toolbar-item button" href="ch-1-velocity.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="ch-1-activities.html">Next</a>
+</div>
+<button class="sidebar-right-toggle-button button active">Annotations</button>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch-1-velocity.html">Previous</a><a class="up-button button toolbar-item" href="ch-1.html">Up</a><a class="next-button button toolbar-item" href="ch-1-activities.html">Next</a>
+</div>
+</div></nav></header><div class="page">
+<aside id="sidebar-left" class="sidebar"><div class="sidebar-content">
+<nav id="toc"><h2 class="link active"><a href="ch-1.html"><span class="codenumber">1</span><span class="title">My first chapter</span></a></h2>
+<ul>
+<li><a href="ch-1-velocity.html">Graphics and other Basics</a></li>
+<li><a href="ch-1-limit.html" class="active">Using Knowls</a></li>
+<li><a href="ch-1-activities.html">Using Activities</a></li>
+<li><a href="exercises-sets.html">Exercises</a></li>
+</ul>
+<h2 class="link"><a href="backmatter.html"><span class="title">Back Matter</span></a></h2>
+<ul><li><a href="appendix-1.html">Hints and Solutions to Selected Exercises</a></li></ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://mathbook.pugetsound.edu">Authored in MathBook XML</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://cdn.mathjax.org/mathjax/badge/badge.gif" border="0" alt="Powered by MathJax"></a></nav></div>
+</div></aside><main class="main"><div id="content" class="mathbook-content"><section class="section" id="ch-1-limit"><header title="Section 1.2 Using Knowls"><h1 class="heading hide-type" alt="Section 1.2 Using Knowls">
+<span class="type">Section</span><span class="codenumber">1.2</span><span class="title">Using Knowls</span><a href="ch-1-limit.html" class="permalink">¶ permalink</a>
+</h1></header><article class="introduction" id="introduction-3"><h5 class="heading"><span></span></h5>
+<p id="p-11"> In this section of the text, we will explore the use of <em class="terminology">knowls</em>. </p></article><section class="subsection" id="subsection-3"><header title="Subsection 1.2.1 Things that are automatically knowl-ized"><h1 class="heading hide-type" alt="Subsection 1.2.1 Things that are automatically knowl-ized">
+<span class="type">Subsection</span><span class="codenumber">1.2.1</span><span class="title">Things that are automatically knowl-ized</span>
+</h1></header><p id="p-12">Footnotes are even better as knowls.<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-fn-1" id="fn-1"><span class="footnote"><sup> 1 </sup></span></a></span><span id="hk-fn-1" style="display: none;" class="tex2jax_ignore"><span class="footnote">Because they appear adjacent to the footnote in the text when you click on them.</span></span></p>
+<p id="p-13">If we do a theorem that has a proof, the proof is automatically in a knowl.  The theorem structure in MBX also has several key levels/components:  theorem, title, index, statement, proof.</p>
+<article class="theorem-like" id="theorem-MyTheorem"><h5 class="heading">
+<span class="type">Theorem</span><span class="codenumber">1.2.1</span><span class="title">My Theorem</span>
+</h5>
+<p id="p-14">If a triangle has sides of length \(a\), \(b\), and \(c\), and \(a^2 + b^2 = c^2\), then the triangle is a right triangle.</p></article><div class="posterior">
+<span class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-proof-1" id="proof-1"><article class="hiddenproof"><h5 class="heading"><span class="type">Proof</span></h5></article></a></span><span id="hk-proof-1" style="display: none;" class="tex2jax_ignore"><article class="hiddenproof"><p id="p-15">Here is my insightful argument.</p></article></span>
+</div>
+<p id="p-16">Examples are also automatically put into knowls.</p>
+<div class="hidden-knowl-wrapper"><a knowl="" class="id-ref" refid="hk-example-ch-1-MyExample" id="example-ch-1-MyExample"><article class="example-like"><h5 class="heading">
+<span class="type">Example</span><span class="codenumber">1.2.2</span>
+</h5></article></a></div>
+<div id="hk-example-ch-1-MyExample" style="display: none;" class="tex2jax_ignore"><article class="example-like"><p id="p-17"> Here is an example application of Theorem <a knowl="./knowl/theorem-MyTheorem.html" knowl-id="xref-theorem-MyTheorem" alt="Theorem 1.2.1 My Theorem" title="Theorem 1.2.1 My Theorem">1.2.1</a>.  Suppose that we have a triangle whose sides are of length 5, 12, 13.  Then, since \(5^2 + 12^2 = 25 + 144 = 169 = 13^2\), it follows that the triangle must be a right triangle.</p></article></div></section><section class="subsection" id="subsection-4"><header title="Subsection 1.2.2 How do exercises work?"><h1 class="heading hide-type" alt="Subsection 1.2.2 How do exercises work?">
+<span class="type">Subsection</span><span class="codenumber">1.2.2</span><span class="title">How do exercises work?</span>
+</h1></header><p id="p-18">Exercises seem to be set up so that they appear as their own section.  Can we put them within a subsection?  Is this one of the things Rob is working on?</p></section></section></div></main>
+</div>
+</body>
+</html>
